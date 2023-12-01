@@ -1,0 +1,18 @@
+.data {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+}
+
+
+.card {
+    border: 1px solid black;
+    width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.card button {
+    background-color: white;
+
+}
